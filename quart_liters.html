@@ -6,7 +6,7 @@
 <script>
 
 function quartToLiter() {
-	let q= parseInt(document.getElementById('AddQuart').value);
+	let q= parseFloat(document.getElementById('AddQuart').value);
 	let c= q * 0.946353
 	let l= "This amount is (are): " + c + " liters"
 		document.getElementById('OutDiv').innerHTML = l;
